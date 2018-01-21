@@ -530,9 +530,11 @@ AddOutputFilter chunkFilter
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
+			<Item Name="command-statu-AE-control.ctl" Type="VI" URL="../../labview-standard-library/auto-mode-scripting/type-defs/command-statu-AE-control.ctl"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="get-tool-last-line.vi" Type="VI" URL="../../labview-standard-library/auto-mode-scripting/command-status-ae/get-tool-last-line.vi"/>
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -549,6 +551,7 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="tool-assignments.ctl" Type="VI" URL="../../labview-standard-library/auto-mode-scripting/type-defs/tool-assignments.ctl"/>
+			<Item Name="tool-call-tracker.ctl" Type="VI" URL="../../labview-standard-library/auto-mode-scripting/type-defs/tool-call-tracker.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
