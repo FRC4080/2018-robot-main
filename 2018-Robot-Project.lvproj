@@ -116,6 +116,20 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Main" Type="Folder">
+			<Item Name="Init" Type="Folder"/>
+			<Item Name="Output" Type="Folder">
+				<Item Name="ActuatorOutputMain.vi" Type="VI" URL="../Team-code/ActuatorOutputMain.vi"/>
+			</Item>
+			<Item Name="Sensors" Type="Folder">
+				<Item Name="SensorDAQ.vi" Type="VI" URL="../Team-code/SensorDAQ.vi"/>
+			</Item>
+			<Item Name="Subsystems" Type="Folder">
+				<Item Name="ClawSubsystem.vi" Type="VI" URL="../Team-code/ClawSubsystem.vi"/>
+				<Item Name="DriveSubsystem.vi" Type="VI" URL="../Team-code/DriveSubsystem.vi"/>
+				<Item Name="JacksSubsystem.vi" Type="VI" URL="../Team-code/JacksSubsystem.vi"/>
+				<Item Name="LiftSubsystem.vi" Type="VI" URL="../Team-code/LiftSubsystem.vi"/>
+				<Item Name="Subsystems.vi" Type="VI" URL="../Team-code/Subsystems.vi"/>
+			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
