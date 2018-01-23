@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Canned routines" Type="Folder"/>
 	<Item Name="Subsytem-Script-Parser" Type="Folder">
 		<Item Name="get-action-type.vi" Type="VI" URL="../get-action-type.vi"/>
 		<Item Name="parser-main.vi" Type="VI" URL="../parser-main.vi"/>
