@@ -116,7 +116,11 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Main" Type="Folder">
-			<Item Name="Init" Type="Folder"/>
+			<Item Name="Init" Type="Folder">
+				<Item Name="Initialization.vi" Type="VI" URL="../../../labview programs/Initialization.vi"/>
+				<Item Name="Motor_Initialization (SubVI).vi" Type="VI" URL="../../../labview programs/Motor_Initialization (SubVI).vi"/>
+				<Item Name="Pneumatic_Control_Module_Intialization(SubVI).vi" Type="VI" URL="../../../labview programs/Pneumatic_Control_Module_Intialization(SubVI).vi"/>
+			</Item>
 			<Item Name="Output" Type="Folder">
 				<Item Name="ActuatorOutputMain.vi" Type="VI" URL="../Team-code/ActuatorOutputMain.vi"/>
 			</Item>
