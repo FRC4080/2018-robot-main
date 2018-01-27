@@ -127,6 +127,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Subsystems" Type="Folder">
 				<Item Name="Drive" Type="Folder">
 					<Item Name="DriveActuatorOutput.vi" Type="VI" URL="../Team-code/DriveActuatorOutput.vi"/>
+					<Item Name="DriveState.vi" Type="VI" URL="../Team-code/DriveState.vi"/>
 				</Item>
 				<Item Name="DriveSubsystem.vi" Type="VI" URL="../Team-code/DriveSubsystem.vi"/>
 				<Item Name="IntakeSubsystem.vi" Type="VI" URL="../Team-code/IntakeSubsystem.vi"/>
