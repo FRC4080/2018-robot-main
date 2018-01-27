@@ -120,6 +120,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Initialization.vi" Type="VI" URL="../../../labview programs/Initialization.vi"/>
 				<Item Name="Motor_Initialization (SubVI).vi" Type="VI" URL="../../../labview programs/Motor_Initialization (SubVI).vi"/>
 				<Item Name="Pneumatic_Control_Module_Intialization(SubVI).vi" Type="VI" URL="../../../labview programs/Pneumatic_Control_Module_Intialization(SubVI).vi"/>
+				<Item Name="Servo_Initialization(SubVI).vi" Type="VI" URL="../Servo_Initialization(SubVI).vi"/>
 			</Item>
 			<Item Name="Output" Type="Folder">
 				<Item Name="ActuatorOutputMain.vi" Type="VI" URL="../Team-code/ActuatorOutputMain.vi"/>
