@@ -125,8 +125,8 @@ AddOutputFilter chunkFilter
 				<Item Name="SensorDAQ.vi" Type="VI" URL="../Team-code/SensorDAQ.vi"/>
 			</Item>
 			<Item Name="Subsystems" Type="Folder">
-				<Item Name="ClawSubsystem.vi" Type="VI" URL="../Team-code/ClawSubsystem.vi"/>
 				<Item Name="DriveSubsystem.vi" Type="VI" URL="../Team-code/DriveSubsystem.vi"/>
+				<Item Name="IntakeSubsystem.vi" Type="VI" URL="../Team-code/IntakeSubsystem.vi"/>
 				<Item Name="JacksSubsystem.vi" Type="VI" URL="../Team-code/JacksSubsystem.vi"/>
 				<Item Name="LiftSubsystem.vi" Type="VI" URL="../Team-code/LiftSubsystem.vi"/>
 				<Item Name="Subsystems.vi" Type="VI" URL="../Team-code/Subsystems.vi"/>
