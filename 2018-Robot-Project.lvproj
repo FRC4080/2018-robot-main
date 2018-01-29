@@ -117,7 +117,9 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Main" Type="Folder">
 			<Item Name="Init" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Initialization.vi" Type="VI" URL="../../../labview programs/Initialization.vi"/>
+				<Item Name="Encoder_Initialization(SubVI).vi" Type="VI" URL="../Encoder_Initialization(SubVI).vi"/>
 				<Item Name="Motor_Initialization (SubVI).vi" Type="VI" URL="../../../labview programs/Motor_Initialization (SubVI).vi"/>
 				<Item Name="Pneumatic_Control_Module_Intialization(SubVI).vi" Type="VI" URL="../../../labview programs/Pneumatic_Control_Module_Intialization(SubVI).vi"/>
 				<Item Name="Servo_Initialization(SubVI).vi" Type="VI" URL="../Servo_Initialization(SubVI).vi"/>
