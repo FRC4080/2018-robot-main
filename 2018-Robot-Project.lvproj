@@ -193,32 +193,31 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Subsystems" Type="Folder">
 				<Item Name="CubeLift" Type="Folder">
-					<Item Name="CubeLiftCommand.ctl" Type="VI" URL="../Team-code/CubeLiftCommand.ctl"/>
-					<Item Name="CubeLiftOutput.ctl" Type="VI" URL="../Team-code/CubeLiftOutput.ctl"/>
 					<Item Name="CubeLiftControl.vi" Type="VI" URL="../Team-code/CubeLiftControl.vi"/>
+					<Item Name="CubeLiftData.lvclass" Type="LVClass" URL="../SubsystemData/CubeLiftData/CubeLiftData.lvclass"/>
 				</Item>
 				<Item Name="Drive" Type="Folder">
-					<Item Name="DriveCommand.ctl" Type="VI" URL="../Team-code/DriveCommand.ctl"/>
-					<Item Name="DriveOutput.ctl" Type="VI" URL="../Team-code/DriveOutput.ctl"/>
+					<Item Name="DriveData.lvclass" Type="LVClass" URL="../SubsystemData/DriveData/DriveData.lvclass"/>
+					<Item Name="Drive.lvclass" Type="LVClass" URL="../Subsystem/Drive/Drive.lvclass"/>
 				</Item>
 				<Item Name="Intake" Type="Folder">
-					<Item Name="IntakeCommand.ctl" Type="VI" URL="../Team-code/IntakeCommand.ctl"/>
-					<Item Name="IntakeOutput.ctl" Type="VI" URL="../Team-code/IntakeOutput.ctl"/>
+					<Item Name="IntakeData.lvclass" Type="LVClass" URL="../SubsystemData/IntakeData/IntakeData.lvclass"/>
 				</Item>
 				<Item Name="RobotLift" Type="Folder">
-					<Item Name="RobotLiftCommand.ctl" Type="VI" URL="../Team-code/RobotLiftCommand.ctl"/>
 					<Item Name="RobotLiftControl.vi" Type="VI" URL="../Team-code/RobotLiftControl.vi"/>
-					<Item Name="RobotLiftOutput.ctl" Type="VI" URL="../Team-code/RobotLiftOutput.ctl"/>
+					<Item Name="RobotLiftData.lvclass" Type="LVClass" URL="../SubsystemData/RobotLiftData/RobotLiftData.lvclass"/>
 				</Item>
 				<Item Name="CubeLiftSubsystem.vi" Type="VI" URL="../Team-code/CubeLiftSubsystem.vi"/>
 				<Item Name="DriveSubsystem.vi" Type="VI" URL="../Team-code/DriveSubsystem.vi"/>
 				<Item Name="IntakeSubsystem.vi" Type="VI" URL="../Team-code/IntakeSubsystem.vi"/>
 				<Item Name="RobotLiftSubsystem.vi" Type="VI" URL="../Team-code/RobotLiftSubsystem.vi"/>
 				<Item Name="RobotToRunMode.vi" Type="VI" URL="../Team-code/RobotToRunMode.vi"/>
-				<Item Name="RunMode.ctl" Type="VI" URL="../Team-code/RunMode.ctl"/>
 				<Item Name="Subsystems.vi" Type="VI" URL="../Team-code/Subsystems.vi"/>
+				<Item Name="SubsystemTmeoutSelector.vi" Type="VI" URL="../Team-code/SubsystemTmeoutSelector.vi"/>
 				<Item Name="SubsystemTimeoutWatchdog.vi" Type="VI" URL="../Team-code/SubsystemTimeoutWatchdog.vi"/>
-				<Item Name="RobotSubsystem.lvclass" Type="LVClass" URL="../Team-code/RobotSubsystem.lvclass"/>
+				<Item Name="SubsystemWaitForCommand.vi" Type="VI" URL="../Team-code/SubsystemWaitForCommand.vi"/>
+				<Item Name="SubsystemData.lvclass" Type="LVClass" URL="../SubsystemData/SubsystemData.lvclass"/>
+				<Item Name="Subsystem.lvclass" Type="LVClass" URL="../Subsystem/Subsystem.lvclass"/>
 			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
@@ -414,6 +413,7 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_SystemStart Async Agent.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemStart Async Agent.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get Semaphore Status.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Get Semaphore Status.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -829,6 +829,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="RobotSubsystem.lvclass" Type="LVClass" URL="../Team-code/RobotSubsystem.lvclass"/>
 			<Item Name="tool-assignments.ctl" Type="VI" URL="../../labview-standard-library/auto-mode-scripting/type-defs/tool-assignments.ctl"/>
 			<Item Name="tool-call-tracker.ctl" Type="VI" URL="../../labview-standard-library/auto-mode-scripting/type-defs/tool-call-tracker.ctl"/>
 		</Item>
