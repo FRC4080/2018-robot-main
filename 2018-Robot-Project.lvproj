@@ -165,7 +165,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Output" Type="Folder">
 				<Item Name="ActuatorOutputMain.vi" Type="VI" URL="../Team-code/ActuatorOutputMain.vi"/>
 				<Item Name="CubeLiftOutput.vi" Type="VI" URL="../Team-code/CubeLiftOutput.vi"/>
-				<Item Name="DriveOutput.vi" Type="VI" URL="../Team-code/DriveOutput.vi"/>
 				<Item Name="IntakeOutput.vi" Type="VI" URL="../Team-code/IntakeOutput.vi"/>
 				<Item Name="RobotLiftOutput.vi" Type="VI" URL="../Team-code/RobotLiftOutput.vi"/>
 			</Item>
@@ -180,7 +179,6 @@ AddOutputFilter chunkFilter
 				<Item Name="RobotLiftEncoder.vi" Type="VI" URL="../Team-code/RobotLiftEncoder.vi"/>
 			</Item>
 			<Item Name="Teleop" Type="Folder">
-				<Item Name="DriveTeleopCommand.vi" Type="VI" URL="../Team-code/DriveTeleopCommand.vi"/>
 				<Item Name="IntakeTeleopCommand.vi" Type="VI" URL="../Team-code/IntakeTeleopCommand.vi"/>
 				<Item Name="RobotLiftTeleopCommand.vi" Type="VI" URL="../Team-code/RobotLiftTeleopCommand.vi"/>
 				<Item Name="CubeLiftTeleopCommand.ctl" Type="VI" URL="../Team-code/CubeLiftTeleopCommand.ctl"/>
@@ -202,7 +200,6 @@ AddOutputFilter chunkFilter
 					<Item Name="RobotLiftData.lvclass" Type="LVClass" URL="../SubsystemData/RobotLiftData/RobotLiftData.lvclass"/>
 				</Item>
 				<Item Name="CubeLiftSubsystem.vi" Type="VI" URL="../Team-code/CubeLiftSubsystem.vi"/>
-				<Item Name="DriveSubsystem.vi" Type="VI" URL="../Team-code/DriveSubsystem.vi"/>
 				<Item Name="IntakeSubsystem.vi" Type="VI" URL="../Team-code/IntakeSubsystem.vi"/>
 				<Item Name="RobotLiftSubsystem.vi" Type="VI" URL="../Team-code/RobotLiftSubsystem.vi"/>
 				<Item Name="RobotToRunMode.vi" Type="VI" URL="../Team-code/RobotToRunMode.vi"/>
@@ -801,6 +798,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
 			<Item Name="command-statu-AE-control.ctl" Type="VI" URL="../../labview-standard-library/auto-mode-scripting/type-defs/command-statu-AE-control.ctl"/>
+			<Item Name="DriveSubsystem.vi" Type="VI" URL="../Team-code/DriveSubsystem.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
