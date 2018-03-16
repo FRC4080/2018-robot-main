@@ -27,7 +27,6 @@
 			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
-			<Item Name="QueueUnderstanding.vi" Type="VI" URL="../Team-code/Tests/QueueUnderstanding.vi"/>
 			<Item Name="_StartSubRoutine.vi" Type="VI" URL="../Team-code/Tests/_StartSubRoutine.vi"/>
 			<Item Name="TestStartSubRoutine.vi" Type="VI" URL="../Team-code/Tests/TestStartSubRoutine.vi"/>
 		</Item>
@@ -38,11 +37,6 @@
 			<Item Name="Startup VIs" Type="Startup VIs Container"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
-				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
-			</Item>
-			<Item Name="SubsystemTimeoutWatchdog.vi" Type="VI" URL="../Team-code/SubsystemTimeoutWatchdog.vi"/>
 			<Item Name="AutoGeneralInput.ctl" Type="VI" URL="../Team-code/AutoGeneralInput.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -213,9 +207,6 @@ AddOutputFilter chunkFilter
 				<Item Name="RobotLiftSubsystem.vi" Type="VI" URL="../Team-code/RobotLiftSubsystem.vi"/>
 				<Item Name="RobotToRunMode.vi" Type="VI" URL="../Team-code/RobotToRunMode.vi"/>
 				<Item Name="Subsystems.vi" Type="VI" URL="../Team-code/Subsystems.vi"/>
-				<Item Name="SubsystemTmeoutSelector.vi" Type="VI" URL="../Team-code/SubsystemTmeoutSelector.vi"/>
-				<Item Name="SubsystemTimeoutWatchdog.vi" Type="VI" URL="../Team-code/SubsystemTimeoutWatchdog.vi"/>
-				<Item Name="SubsystemWaitForCommand.vi" Type="VI" URL="../Team-code/SubsystemWaitForCommand.vi"/>
 				<Item Name="SubsystemData.lvclass" Type="LVClass" URL="../SubsystemData/SubsystemData.lvclass"/>
 				<Item Name="Subsystem.lvclass" Type="LVClass" URL="../Subsystem/Subsystem.lvclass"/>
 			</Item>
