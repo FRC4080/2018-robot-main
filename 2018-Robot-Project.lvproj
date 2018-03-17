@@ -164,7 +164,6 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Output" Type="Folder">
 				<Item Name="ActuatorOutputMain.vi" Type="VI" URL="../Team-code/ActuatorOutputMain.vi"/>
-				<Item Name="RobotLiftOutput.vi" Type="VI" URL="../Team-code/RobotLiftOutput.vi"/>
 			</Item>
 			<Item Name="Sensors" Type="Folder">
 				<Item Name="CubeLiftEncoder.vi" Type="VI" URL="../Team-code/CubeLiftEncoder.vi"/>
