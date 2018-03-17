@@ -165,7 +165,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Output" Type="Folder">
 				<Item Name="ActuatorOutputMain.vi" Type="VI" URL="../Team-code/ActuatorOutputMain.vi"/>
 				<Item Name="CubeLiftOutput.vi" Type="VI" URL="../Team-code/CubeLiftOutput.vi"/>
-				<Item Name="IntakeOutput.vi" Type="VI" URL="../Team-code/IntakeOutput.vi"/>
 				<Item Name="RobotLiftOutput.vi" Type="VI" URL="../Team-code/RobotLiftOutput.vi"/>
 			</Item>
 			<Item Name="Sensors" Type="Folder">
@@ -194,28 +193,30 @@ AddOutputFilter chunkFilter
 				</Item>
 				<Item Name="Intake" Type="Folder">
 					<Item Name="IntakeData.lvclass" Type="LVClass" URL="../SubsystemData/IntakeData/IntakeData.lvclass"/>
+					<Item Name="Intake.lvclass" Type="LVClass" URL="../Subsystem/Intake/Intake.lvclass"/>
 				</Item>
 				<Item Name="RobotLift" Type="Folder">
 					<Item Name="RobotLiftControl.vi" Type="VI" URL="../Team-code/RobotLiftControl.vi"/>
 					<Item Name="RobotLiftData.lvclass" Type="LVClass" URL="../SubsystemData/RobotLiftData/RobotLiftData.lvclass"/>
 				</Item>
 				<Item Name="CubeLiftSubsystem.vi" Type="VI" URL="../Team-code/CubeLiftSubsystem.vi"/>
-				<Item Name="IntakeSubsystem.vi" Type="VI" URL="../Team-code/IntakeSubsystem.vi"/>
 				<Item Name="RobotLiftSubsystem.vi" Type="VI" URL="../Team-code/RobotLiftSubsystem.vi"/>
 				<Item Name="RobotToRunMode.vi" Type="VI" URL="../Team-code/RobotToRunMode.vi"/>
 				<Item Name="Subsystems.vi" Type="VI" URL="../Team-code/Subsystems.vi"/>
 				<Item Name="SubsystemData.lvclass" Type="LVClass" URL="../SubsystemData/SubsystemData.lvclass"/>
 				<Item Name="Subsystem.lvclass" Type="LVClass" URL="../Subsystem/Subsystem.lvclass"/>
 			</Item>
-			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
-			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
-			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
-			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
-			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
-			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
-			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
-			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
-			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
+			<Item Name="WPI" Type="Folder">
+				<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
+				<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
+				<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
+				<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
+				<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
+				<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
+				<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
+				<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
+				<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
@@ -798,7 +799,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
 			<Item Name="command-statu-AE-control.ctl" Type="VI" URL="../../labview-standard-library/auto-mode-scripting/type-defs/command-statu-AE-control.ctl"/>
-			<Item Name="DriveSubsystem.vi" Type="VI" URL="../Team-code/DriveSubsystem.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
