@@ -198,7 +198,6 @@ AddOutputFilter chunkFilter
 					<Item Name="RobotLiftControl.vi" Type="VI" URL="../Team-code/RobotLiftControl.vi"/>
 					<Item Name="RobotLiftData.lvclass" Type="LVClass" URL="../SubsystemData/RobotLiftData/RobotLiftData.lvclass"/>
 				</Item>
-				<Item Name="CubeLiftSubsystem.vi" Type="VI" URL="../Team-code/CubeLiftSubsystem.vi"/>
 				<Item Name="RobotLiftSubsystem.vi" Type="VI" URL="../Team-code/RobotLiftSubsystem.vi"/>
 				<Item Name="RobotToRunMode.vi" Type="VI" URL="../Team-code/RobotToRunMode.vi"/>
 				<Item Name="Subsystems.vi" Type="VI" URL="../Team-code/Subsystems.vi"/>
@@ -798,6 +797,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
 			<Item Name="command-statu-AE-control.ctl" Type="VI" URL="../../labview-standard-library/auto-mode-scripting/type-defs/command-statu-AE-control.ctl"/>
+			<Item Name="CubeLiftSubsystem.vi" Type="VI" URL="../Team-code/CubeLiftSubsystem.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
