@@ -183,8 +183,8 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Subsystems" Type="Folder">
 				<Item Name="CubeLift" Type="Folder">
-					<Item Name="CubeLiftControl.vi" Type="VI" URL="../Team-code/CubeLiftControl.vi"/>
 					<Item Name="CubeLiftData.lvclass" Type="LVClass" URL="../SubsystemData/CubeLiftData/CubeLiftData.lvclass"/>
+					<Item Name="CubeLift.lvclass" Type="LVClass" URL="../Subsystem/CubeLift/CubeLift.lvclass"/>
 				</Item>
 				<Item Name="Drive" Type="Folder">
 					<Item Name="DriveData.lvclass" Type="LVClass" URL="../SubsystemData/DriveData/DriveData.lvclass"/>
