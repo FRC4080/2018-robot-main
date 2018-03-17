@@ -194,8 +194,8 @@ AddOutputFilter chunkFilter
 					<Item Name="Intake.lvclass" Type="LVClass" URL="../Subsystem/Intake/Intake.lvclass"/>
 				</Item>
 				<Item Name="RobotLift" Type="Folder">
-					<Item Name="RobotLiftControl.vi" Type="VI" URL="../Team-code/RobotLiftControl.vi"/>
 					<Item Name="RobotLiftData.lvclass" Type="LVClass" URL="../SubsystemData/RobotLiftData/RobotLiftData.lvclass"/>
+					<Item Name="RobotLift.lvclass" Type="LVClass" URL="../Subsystem/RobotLift/RobotLift.lvclass"/>
 				</Item>
 				<Item Name="RobotLiftSubsystem.vi" Type="VI" URL="../Team-code/RobotLiftSubsystem.vi"/>
 				<Item Name="RobotToRunMode.vi" Type="VI" URL="../Team-code/RobotToRunMode.vi"/>
