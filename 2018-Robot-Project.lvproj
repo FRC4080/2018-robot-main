@@ -178,7 +178,6 @@ AddOutputFilter chunkFilter
 				<Item Name="RobotLiftEncoder.vi" Type="VI" URL="../Team-code/RobotLiftEncoder.vi"/>
 			</Item>
 			<Item Name="Teleop" Type="Folder">
-				<Item Name="IntakeTeleopCommand.vi" Type="VI" URL="../Team-code/IntakeTeleopCommand.vi"/>
 				<Item Name="RobotLiftTeleopCommand.vi" Type="VI" URL="../Team-code/RobotLiftTeleopCommand.vi"/>
 				<Item Name="CubeLiftTeleopCommand.ctl" Type="VI" URL="../Team-code/CubeLiftTeleopCommand.ctl"/>
 			</Item>
