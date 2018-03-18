@@ -177,7 +177,6 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Teleop" Type="Folder">
 				<Item Name="RobotLiftTeleopCommand.vi" Type="VI" URL="../Team-code/RobotLiftTeleopCommand.vi"/>
-				<Item Name="CubeLiftTeleopCommand.ctl" Type="VI" URL="../Team-code/CubeLiftTeleopCommand.ctl"/>
 			</Item>
 			<Item Name="Subsystems" Type="Folder">
 				<Item Name="CubeLift" Type="Folder">
