@@ -175,9 +175,6 @@ AddOutputFilter chunkFilter
 				<Item Name="DriveEncoders.vi" Type="VI" URL="../Team-code/DriveEncoders.vi"/>
 				<Item Name="RobotLiftEncoder.vi" Type="VI" URL="../Team-code/RobotLiftEncoder.vi"/>
 			</Item>
-			<Item Name="Teleop" Type="Folder">
-				<Item Name="RobotLiftTeleopCommand.vi" Type="VI" URL="../Team-code/RobotLiftTeleopCommand.vi"/>
-			</Item>
 			<Item Name="Subsystems" Type="Folder">
 				<Item Name="CubeLift" Type="Folder">
 					<Item Name="CubeLiftData.lvclass" Type="LVClass" URL="../SubsystemData/CubeLiftData/CubeLiftData.lvclass"/>
