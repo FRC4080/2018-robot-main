@@ -26,19 +26,14 @@
 			</Item>
 			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
 		</Item>
-		<Item Name="Test" Type="Folder">
-			<Item Name="_StartSubRoutine.vi" Type="VI" URL="../Team-code/Tests/_StartSubRoutine.vi"/>
-			<Item Name="TestStartSubRoutine.vi" Type="VI" URL="../Team-code/Tests/TestStartSubRoutine.vi"/>
-		</Item>
+		<Item Name="Test" Type="Folder"/>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
 		<Item Name="WebService1" Type="Web Service">
 			<Property Name="ws.guid" Type="Str">{E6D7933A-126C-414C-B3C0-F20681F81F52}</Property>
 			<Item Name="Web Resources" Type="HTTP WebResources Container"/>
 			<Item Name="Startup VIs" Type="Startup VIs Container"/>
 		</Item>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="AutoGeneralInput.ctl" Type="VI" URL="../Team-code/AutoGeneralInput.ctl"/>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
@@ -130,29 +125,22 @@ AddOutputFilter chunkFilter
 					<Item Name="EndRoutine.vi" Type="VI" URL="../Team-code/EndRoutine.vi"/>
 					<Item Name="EndSubRoutine.vi" Type="VI" URL="../Team-code/EndSubRoutine.vi"/>
 					<Item Name="StartSubRoutine.vi" Type="VI" URL="../Team-code/StartSubRoutine.vi"/>
+					<Item Name="AutoSubroutine.lvclass" Type="LVClass" URL="../AutoSubsystem/AutoSubroutine.lvclass"/>
+					<Item Name="AutoDrive.lvclass" Type="LVClass" URL="../AutoSubsystem/AutoDrive/AutoDrive.lvclass"/>
 				</Item>
-				<Item Name="Drive" Type="Folder">
-					<Item Name="DriveAutoArc.vi" Type="VI" URL="../Team-code/DriveAutoArc.vi"/>
-					<Item Name="DriveAutoCommand.vi" Type="VI" URL="../Team-code/DriveAutoCommand.vi"/>
-					<Item Name="DriveAutoType.ctl" Type="VI" URL="../Team-code/DriveAutoType.ctl"/>
-					<Item Name="DriveAutoInput.ctl" Type="VI" URL="../Team-code/DriveAutoInput.ctl"/>
-					<Item Name="DriveAutoStraight.vi" Type="VI" URL="../Team-code/DriveAutoStraight.vi"/>
-					<Item Name="DriveAutoDirections.ctl" Type="VI" URL="../Team-code/DriveAutoDirections.ctl"/>
-					<Item Name="DriveArcadeMixer.vi" Type="VI" URL="../Team-code/DriveArcadeMixer.vi"/>
-					<Item Name="GyroReset.vi" Type="VI" URL="../Team-code/GyroReset.vi"/>
-					<Item Name="DriveAutoSpin.vi" Type="VI" URL="../Team-code/DriveAutoSpin.vi"/>
-				</Item>
-				<Item Name="CubeLift" Type="Folder">
+				<Item Name="Intake" Type="Folder">
 					<Item Name="CubeLiftAutoType.ctl" Type="VI" URL="../Team-code/CubeLiftAutoType.ctl"/>
 					<Item Name="CubeLiftDepositLow.vi" Type="VI" URL="../Team-code/CubeLiftDepositLow.vi"/>
 				</Item>
-				<Item Name="Intake" Type="Folder"/>
+				<Item Name="Modes" Type="Folder">
+					<Item Name="DriveMode.lvclass" Type="LVClass" URL="../Subsystem/Drive/DriveMode.lvclass"/>
+					<Item Name="SubroutineModes.lvclass" Type="LVClass" URL="../AutoSubsystem/SubroutineModes/SubroutineModes.lvclass"/>
+				</Item>
 				<Item Name="CubeLiftAuto.vi" Type="VI" URL="../Team-code/CubeLiftAuto.vi"/>
 				<Item Name="DriveAuto.vi" Type="VI" URL="../Team-code/DriveAuto.vi"/>
 				<Item Name="IntakeAuto.vi" Type="VI" URL="../Team-code/IntakeAuto.vi"/>
 				<Item Name="RobotLiftAuto.vi" Type="VI" URL="../Team-code/RobotLiftAuto.vi"/>
-				<Item Name="AutoGeneralInput.ctl" Type="VI" URL="../Team-code/AutoGeneralInput.ctl"/>
-				<Item Name="AutoGeneralOutput.ctl" Type="VI" URL="../Team-code/AutoGeneralOutput.ctl"/>
+				<Item Name="AutoControler.lvclass" Type="LVClass" URL="../AutoControler/AutoControler.lvclass"/>
 			</Item>
 			<Item Name="Disabled" Type="Folder"/>
 			<Item Name="Init" Type="Folder">
@@ -192,9 +180,6 @@ AddOutputFilter chunkFilter
 					<Item Name="RobotLiftData.lvclass" Type="LVClass" URL="../SubsystemData/RobotLiftData/RobotLiftData.lvclass"/>
 					<Item Name="RobotLift.lvclass" Type="LVClass" URL="../Subsystem/RobotLift/RobotLift.lvclass"/>
 				</Item>
-				<Item Name="RobotLiftSubsystem.vi" Type="VI" URL="../Team-code/RobotLiftSubsystem.vi"/>
-				<Item Name="RobotToRunMode.vi" Type="VI" URL="../Team-code/RobotToRunMode.vi"/>
-				<Item Name="Subsystems.vi" Type="VI" URL="../Team-code/Subsystems.vi"/>
 				<Item Name="SubsystemData.lvclass" Type="LVClass" URL="../SubsystemData/SubsystemData.lvclass"/>
 				<Item Name="Subsystem.lvclass" Type="LVClass" URL="../Subsystem/Subsystem.lvclass"/>
 			</Item>
@@ -791,7 +776,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
 			<Item Name="command-statu-AE-control.ctl" Type="VI" URL="../../labview-standard-library/auto-mode-scripting/type-defs/command-statu-AE-control.ctl"/>
-			<Item Name="CubeLiftSubsystem.vi" Type="VI" URL="../Team-code/CubeLiftSubsystem.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -811,7 +795,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RobotSubsystem.lvclass" Type="LVClass" URL="../Team-code/RobotSubsystem.lvclass"/>
 			<Item Name="tool-assignments.ctl" Type="VI" URL="../../labview-standard-library/auto-mode-scripting/type-defs/tool-assignments.ctl"/>
 			<Item Name="tool-call-tracker.ctl" Type="VI" URL="../../labview-standard-library/auto-mode-scripting/type-defs/tool-call-tracker.ctl"/>
 		</Item>

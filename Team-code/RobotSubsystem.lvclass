@@ -24,15 +24,6 @@
 	<Item Name="RobotSubsystem.ctl" Type="Class Private Data" URL="RobotSubsystem.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="RunMode.ctl" Type="VI" URL="../RunMode.ctl">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!";!!!!!1"3!0%!!!!!!!!!!B:3&lt;W*P&gt;&amp;.V9H.Z=X2F&lt;3ZM&gt;G.M98.T#V*V&lt;EVP:'5O9X2M!#&gt;!&amp;A!$"%&amp;V&gt;']'6'6M:7^Q#%2J=W&amp;C&lt;'6E!!!%47^E:1!!!1!!!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
-	</Item>
 	<Item Name="WaitForCommand.vi" Type="VI" URL="../WaitForCommand.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%H!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!9&amp;F*P9G^U5X6C=XFT&gt;'6N,GRW9WRB=X-!!"*3&lt;W*P&gt;&amp;.V9H.Z=X2F&lt;3"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.%"Q!"Y!!"A75G^C&lt;X24&gt;7*T?8.U:7UO&lt;(:D&lt;'&amp;T=Q!!%6*P9G^U5X6C=XFT&gt;'6N)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
