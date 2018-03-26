@@ -125,22 +125,20 @@ AddOutputFilter chunkFilter
 					<Item Name="EndRoutine.vi" Type="VI" URL="../Team-code/EndRoutine.vi"/>
 					<Item Name="EndSubRoutine.vi" Type="VI" URL="../Team-code/EndSubRoutine.vi"/>
 					<Item Name="StartSubRoutine.vi" Type="VI" URL="../Team-code/StartSubRoutine.vi"/>
-					<Item Name="AutoSubroutine.lvclass" Type="LVClass" URL="../AutoSubsystem/AutoSubroutine.lvclass"/>
-					<Item Name="AutoDrive.lvclass" Type="LVClass" URL="../AutoSubsystem/AutoDrive/AutoDrive.lvclass"/>
 				</Item>
 				<Item Name="Intake" Type="Folder">
 					<Item Name="CubeLiftAutoType.ctl" Type="VI" URL="../Team-code/CubeLiftAutoType.ctl"/>
 					<Item Name="CubeLiftDepositLow.vi" Type="VI" URL="../Team-code/CubeLiftDepositLow.vi"/>
 				</Item>
-				<Item Name="Modes" Type="Folder">
-					<Item Name="DriveMode.lvclass" Type="LVClass" URL="../Subsystem/Drive/DriveMode.lvclass"/>
-					<Item Name="SubroutineModes.lvclass" Type="LVClass" URL="../AutoSubsystem/SubroutineModes/SubroutineModes.lvclass"/>
+				<Item Name="Drive" Type="Folder">
+					<Item Name="DriveAuto.lvclass" Type="LVClass" URL="../Subsystem/Drive/Auto/DriveAuto.lvclass"/>
 				</Item>
 				<Item Name="CubeLiftAuto.vi" Type="VI" URL="../Team-code/CubeLiftAuto.vi"/>
 				<Item Name="DriveAuto.vi" Type="VI" URL="../Team-code/DriveAuto.vi"/>
 				<Item Name="IntakeAuto.vi" Type="VI" URL="../Team-code/IntakeAuto.vi"/>
 				<Item Name="RobotLiftAuto.vi" Type="VI" URL="../Team-code/RobotLiftAuto.vi"/>
 				<Item Name="AutoControler.lvclass" Type="LVClass" URL="../AutoControler/AutoControler.lvclass"/>
+				<Item Name="AutoSubroutine.lvclass" Type="LVClass" URL="../AutoSubsystem/AutoSubroutine.lvclass"/>
 			</Item>
 			<Item Name="Disabled" Type="Folder"/>
 			<Item Name="Init" Type="Folder">
@@ -776,6 +774,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
 			<Item Name="command-statu-AE-control.ctl" Type="VI" URL="../../labview-standard-library/auto-mode-scripting/type-defs/command-statu-AE-control.ctl"/>
+			<Item Name="DriveAutoDirections.ctl" Type="VI" URL="../Team-code/DriveAutoDirections.ctl"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
