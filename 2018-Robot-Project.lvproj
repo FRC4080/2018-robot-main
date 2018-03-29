@@ -26,25 +26,14 @@
 			</Item>
 			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
 		</Item>
-		<Item Name="Test" Type="Folder">
-			<Item Name="QueueUnderstanding.vi" Type="VI" URL="../Team-code/Tests/QueueUnderstanding.vi"/>
-			<Item Name="_StartSubRoutine.vi" Type="VI" URL="../Team-code/Tests/_StartSubRoutine.vi"/>
-			<Item Name="TestStartSubRoutine.vi" Type="VI" URL="../Team-code/Tests/TestStartSubRoutine.vi"/>
-		</Item>
+		<Item Name="Test" Type="Folder"/>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
 		<Item Name="WebService1" Type="Web Service">
 			<Property Name="ws.guid" Type="Str">{E6D7933A-126C-414C-B3C0-F20681F81F52}</Property>
 			<Item Name="Web Resources" Type="HTTP WebResources Container"/>
 			<Item Name="Startup VIs" Type="Startup VIs Container"/>
 		</Item>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
-				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
-			</Item>
-			<Item Name="SubsystemTimeoutWatchdog.vi" Type="VI" URL="../Team-code/SubsystemTimeoutWatchdog.vi"/>
-			<Item Name="AutoGeneralInput.ctl" Type="VI" URL="../Team-code/AutoGeneralInput.ctl"/>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
@@ -218,7 +207,6 @@ AddOutputFilter chunkFilter
 				<Item Name="RunMode.ctl" Type="VI" URL="../Team-code/RunMode.ctl"/>
 				<Item Name="Subsystems.vi" Type="VI" URL="../Team-code/Subsystems.vi"/>
 				<Item Name="SubsystemTimeoutWatchdog.vi" Type="VI" URL="../Team-code/SubsystemTimeoutWatchdog.vi"/>
-				<Item Name="RobotSubsystem.lvclass" Type="LVClass" URL="../Team-code/RobotSubsystem.lvclass"/>
 			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
@@ -233,7 +221,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
-		<Item Name="automode.lvlib" Type="Library" URL="../automode.lvlib"/>
 		<Item Name="labview-standard-library.lvlib" Type="Library" URL="../../labview-standard-library/labview-standard-library.lvlib"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="teleop.lvlib" Type="Library" URL="../teleop.lvlib"/>
@@ -849,7 +836,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
