@@ -173,6 +173,7 @@ AddOutputFilter chunkFilter
 				<Item Name="GyroSensorAquisition.vi" Type="VI" URL="../Team-code/GyroSensorAquisition.vi"/>
 				<Item Name="DriveEncoders.vi" Type="VI" URL="../Team-code/DriveEncoders.vi"/>
 				<Item Name="RobotLiftEncoder.vi" Type="VI" URL="../Team-code/RobotLiftEncoder.vi"/>
+				<Item Name="DriveSensors.ctl" Type="VI" URL="../SensorDAQ/DriveSensors.ctl"/>
 			</Item>
 			<Item Name="Teleop" Type="Folder">
 				<Item Name="DriveTeleopCommand.vi" Type="VI" URL="../Team-code/DriveTeleopCommand.vi"/>
