@@ -140,6 +140,7 @@ AddOutputFilter chunkFilter
 				<Item Name="CubeLift" Type="Folder">
 					<Item Name="CubeLiftAutoType.ctl" Type="VI" URL="../Team-code/CubeLiftAutoType.ctl"/>
 					<Item Name="CubeLiftDepositLow.vi" Type="VI" URL="../Team-code/CubeLiftDepositLow.vi"/>
+					<Item Name="ExtendBucket.vi" Type="VI" URL="../CubeLift/ExtendBucket.vi"/>
 				</Item>
 				<Item Name="Intake" Type="Folder"/>
 				<Item Name="CubeLiftAuto.vi" Type="VI" URL="../Team-code/CubeLiftAuto.vi"/>
